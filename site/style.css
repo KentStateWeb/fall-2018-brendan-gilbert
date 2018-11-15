@@ -1,8 +1,11 @@
 .infotop{
   list-style: none;
   color: white;
+  display: flex;
+  flex-direction: row;
 }
 .box1{
-  height: 60px;
+  height: 40px;
   background-color:#ff9639
+
 }
