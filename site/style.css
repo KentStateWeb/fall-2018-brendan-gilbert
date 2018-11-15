@@ -1,3 +1,12 @@
+head{
+  margin:0;
+  padding:0;
+}
+body{
+  margin:0;
+  padding:0;
+}
+
 .infotop{
   list-style: none;
   color: white;
@@ -5,9 +14,47 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin:0;
 }
 .box1{
   height: 40px;
+  padding-top: 10px;
   background-color:#ff9639
+}
+.navbox{
+  height: 30px;
+  padding-top: 10px;
+  background-color:#ff9639
+}
+.navbar{
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin:0;
+}
+.emailbox{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #51708B
 
+}
+.email{
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+
+}
+.welcomebox{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #51708B
+}
+.welcome{
+  color: white;
+  text-align: center;
+  margin: 10px;
 }
