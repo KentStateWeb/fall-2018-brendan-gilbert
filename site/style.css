@@ -9,3 +9,11 @@ div, section, main, aside, header, footer {
   padding: .5em;
   margin-bottom: 1em;
 }
+.infotop{
+  list-style: none;
+  color: white;
+}
+.box1{
+  height: 60px;
+  background-color:#ff9639
+}
