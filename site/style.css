@@ -23,8 +23,11 @@ body{
 }
 .navbox{
   height: 30px;
-  padding-top: 10px;
+  padding-top:0px;
   background-color:#ff9639
+}
+.navbox li {
+
 }
 .navbar{
   list-style: none;
@@ -34,6 +37,8 @@ body{
   justify-content: space-around;
   align-items: center;
   margin:0;
+
+
 }
 .emailbox{
   padding-top: 5px;
