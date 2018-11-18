@@ -23,8 +23,9 @@ body{
 }
 .navbox{
   height: 30px;
-  padding-top:0px;
-  background-color:#ff9639
+  padding-top:10px;
+  background-color:#ff9639;
+
 }
 .navbox li {
 
@@ -37,6 +38,7 @@ body{
   justify-content: space-around;
   align-items: center;
   margin:0;
+  padding-right: 30px;
 
 
 }
