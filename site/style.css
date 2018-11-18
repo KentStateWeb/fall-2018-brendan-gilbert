@@ -1,3 +1,6 @@
+*{
+  font: "Copperplate", serif;
+}
 head{
   margin:0;
   padding:0;
@@ -19,6 +22,10 @@ body{
   text-shadow: 1px 1px black;
 
 }
+.logobox{
+  background-color: grey;
+  height: 100px;
+}
 .box1{
   height: 40px;
   padding-top: 10px;
@@ -28,13 +35,11 @@ body{
   height: 130px;
   padding-top:10px;
   background-color:#ff9639;
-  color: white;
 
 }
 .navbox li {
   font-size: 150%;
   padding: 6px;
-  color: white;
 }
 .left{
   display: flex;
@@ -89,6 +94,9 @@ body{
   text-align: center;
   margin: 10px;
 }
+.learn{
+  text-align: center;
+}
 .menubox{
   padding-top: 10px;
   padding-bottom: 10px;
@@ -100,7 +108,18 @@ body{
 .menulink{
   color: black;
 }
-
+.busbox{
+  background-color: #795C45;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 120%;
+}
+span .hours{
+  padding: 10px;
+}
 
 
 
