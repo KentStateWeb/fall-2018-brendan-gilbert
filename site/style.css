@@ -12,9 +12,12 @@ body{
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin:0;
+  margin: 0;
+  font-size: 85%;
+  text-shadow: 1px 1px black;
+
 }
 .box1{
   height: 40px;
@@ -22,23 +25,42 @@ body{
   background-color:#ff9639
 }
 .navbox{
-  height: 30px;
+  height: 130px;
   padding-top:10px;
   background-color:#ff9639;
+  color: white;
 
 }
 .navbox li {
+  font-size: 150%;
+  padding: 6px;
+  color: white;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  align-items: center;
+  padding-left: 40px;
+
+
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  align-items: center;
+  padding-right: 40px;
+
 
 }
 .navbar{
   list-style: none;
   color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   margin:0;
-  padding-right: 30px;
+  padding: 0;
+  text-shadow: 1px 1px black;
 
 
 }
@@ -53,6 +75,8 @@ body{
   text-align: center;
   display: flex;
   justify-content: space-around;
+  font-size: 150%;
+  text-shadow: 1px 1px black;
 
 }
 .welcomebox{
@@ -64,4 +88,37 @@ body{
   color: white;
   text-align: center;
   margin: 10px;
+}
+.menubox{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: yellow;
+  text-align: center;
+  font-size: 130%;
+  color: black;
+}
+.menulink{
+  color: black;
+}
+
+
+
+
+
+
+.infobottom{
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-size: 85%;
+  text-shadow: 1px 1px black;
+
+}
+.boxbottom{
+  height: 40px;
+  background-color:#ff9639;
 }
