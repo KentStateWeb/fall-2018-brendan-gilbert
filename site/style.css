@@ -1,0 +1,563 @@
+*{
+  font: "Copperplate", serif;
+
+}
+head{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-image: url("images/brick.jpg");
+  background-position: center;
+
+
+}
+
+
+
+a:link{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  background-color: rgb(0, 0, 0, .3);
+}
+.menubox a{
+  color: white;
+}
+.aboutmenubox a{
+  color: white;
+}
+.infotop{
+  list-style: none;
+  color: white;
+  margin: 0;
+  text-shadow: 1px 1px black;
+  position: fixed;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+}
+.logobox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/trianglify2.svg");
+  background-position: top;
+  background-size: ;
+  height: 230px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.logobox img{
+  padding-top: 30px;
+  width: 500px;
+}
+.box1{
+  height: 45px;
+  padding-right: 20px;
+  background-image: url("images/trianglify.svg");
+  background-position: bottom;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.navbox{
+  display: flex;
+  justify-content: space-between;
+
+  background-image:url("images/wood.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+.navbox li {
+  padding: 6px;
+}
+.navbox{
+  border-bottom: 1px solid black;
+}
+.navbar{
+  list-style: none;
+  color: white;
+  align-items: center;
+  margin:0;
+  padding: 0;
+}
+
+.navbar a{
+  color:#fff;
+}
+.emailbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/emailclub.png");
+  background-position: center;
+  background-size: cover;
+  align-content:center;
+  border: 5px solid black;
+  min-height: 120px;
+
+}
+.aboutemailbox{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/emailclub.png");
+  background-position: center;
+  background-size: cover;
+  align-content:center;
+  border: 5px solid black;
+  min-height: 120px;
+
+}
+.email{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+.eb{
+
+}
+.slideshowbox{
+  height: 150px;
+}
+.welcomebox{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url("images/trianglify3.svg");
+  background-position: bottom;
+  border: 5px solid black;
+}
+
+
+.aboutbox{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url("images/trianglify3.svg");
+  background-position: bottom;
+  border: 5px solid black;
+}
+.menubox2{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url("images/trianglify3.svg");
+  background-position: center;
+  background-size: cover;
+  border: 5px solid black;
+}
+
+.welcome{
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+.learn{
+  float: right;
+  padding-right: 20px;
+  color: white;
+}
+.menubox{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image:url("images/menuimg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  border: 5px solid black;
+  min-height: 120px;
+}
+
+.aboutmenubox{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image:url("images/menuimg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  border: 5px solid black;
+  min-height: 120px;
+}
+
+.busbox{
+  background-image:url("images/board.jpg");
+  background-size: cover;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+
+}
+.aboutbusbox{
+  background-image:url("images/board.jpg");
+  background-size: cover;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+
+}
+.bh{
+  background-image:url("images/paper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border: 2px solid black;
+}
+span .hours{
+  padding: 10px;
+}
+
+
+
+
+
+.infobottom{
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  font-size: 85%;
+  text-shadow: 1px 1px black;
+  height: 40px;
+  background-image: url("images/trianglify.svg");
+  background-position: bottom;
+  border-top: 1px solid black;
+  padding-right: 40px;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .infotop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 75%;
+  }
+
+  .navbox{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid black;
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    align-items: center;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .emailbox{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+
+  .email{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 150%;
+  }
+
+  .aboutemailbox{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+
+  .aboutemail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 150%;
+  }
+  .welcomebox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 120%;
+  }
+
+  .aboutbox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+  }
+  .menubox2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+  }
+  .menubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+    font-weight: bold;
+    padding-top: 10px;
+    height: 100px;
+  }
+  .aboutmenubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+    font-weight: bold;
+    padding-top: 10px;
+    height: 100px;
+  }
+  .busbox{
+      font-size: 120%;
+      padding-top: 10px;
+      border-bottom: 5px solid;
+  }
+  .aboutbusbox{
+      font-size: 120%;
+      padding-top: 10px;
+      border-bottom: 5px solid;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 2px;
+  }
+  .infobottom{
+    font-size: 75%;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .navbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 120%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+  }
+
+  .row1{
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    height: 300px;
+  }
+  .menurow1{
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+
+  }
+  .row2{
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+  }
+  .aboutrow2{
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .aboutrow1{
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    height: 700px;
+  }
+  .emailbox{
+    width:23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+  .email{
+    font-size: 130%;
+  }
+  .aboutemailbox{
+    width:18%;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+  .aboutemail{
+    font-size: 130%;
+  }
+  .welcomebox{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+  .aboutbox{
+      width:80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      }
+      .menubox2{
+          width:80%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 150%;
+          padding-top: 50px;
+          padding-bottom: 50px;
+          }
+  .menubox{
+    width:23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 180%;
+    font-weight: bold;
+
+  }
+  .aboutmenubox{
+    width:20%;
+    max-width: 900px;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 180%;
+    font-weight: bold;
+
+  }
+  .busbox{
+    width:98%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 120%;
+    max-width: 900px;
+    max-height: 500px;
+  }
+  .aboutbusbox{
+    width:50%;
+    font-size: 120%;
+    max-width: 900px;
+    max-height: 500px;
+  }
+  .bh{
+    max-height: 400px;
+    max-width: 600px;
+  }
+  section.hours{
+    max-height: 200px;
+  }
+
+  .infotop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 85%;
+  }
+  .logobox{
+    height: 250px;
+  }
+  .navbox{
+    height:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navbar{
+    font-size: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+}
